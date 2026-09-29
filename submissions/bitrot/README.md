@@ -14,7 +14,7 @@ pixels the rot ate** — which is also what unlocks each Friend's permanent perk
 ## Links
 
 - **Playable preview:** https://kamideathless.github.io/bitrot/ — landing page at `/`, game at `/play.html`
-- **Source:** [github.com/kamideathless/bitrot](https://github.com/kamideathless/bitrot/tree/8bbc7fe4ff6cc0a7453915757ffe20a65080a8cd) (pinned to the reviewed commit `8bbc7fe`)
+- **Source:** [github.com/kamideathless/bitrot](https://github.com/kamideathless/bitrot/tree/572e15346e487929017a55d1462ffb1dda6df611) (pinned to the reviewed commit `572e153`)
 
 **Wallet and network requirements: none.** No wallet, no chain, no sign-in, no install, no ownership
 gate. Any modern browser, desktop or touch. The only network traffic is between the game and its own
@@ -30,7 +30,7 @@ Requires Node.js 22.5+ (for the built-in `node:sqlite`). No build step, no `node
 ```sh
 git clone https://github.com/kamideathless/bitrot.git
 cd bitrot
-git checkout 8bbc7fe4ff6cc0a7453915757ffe20a65080a8cd
+git checkout 572e15346e487929017a55d1462ffb1dda6df611
 npm start          # landing page, game and API on http://127.0.0.1:4173/
 npm test           # 164 tests, including the full server suite
 ```
