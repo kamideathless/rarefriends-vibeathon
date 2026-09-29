@@ -1,6 +1,6 @@
 # BITROT
 
-**Builder:** kamiyahame ([@kamiyahame](https://x.com/kamiyahame) · [github.com/kamideathless](https://github.com/kamideathless)) · **Category:** Economy Potential (also entered for Character Spotlight) · **SDK:** none — see *Stack* below
+**Builder:** kamiyahame ([@kamiyahame](https://x.com/kamiyahame) · [github.com/kamideathless](https://github.com/kamideathless)) · **Category:** Economy Potential · **SDK:** none — see *Stack* below
 
 **Stack:** no FriendSDK. Vanilla ES modules and a canvas on the client, a Node 22 server using the
 built-in `node:sqlite`, and **zero runtime dependencies on either side**. This is the Vibeathon's
