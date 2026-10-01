@@ -1,6 +1,6 @@
 # BITROT
 
-**Builder:** kamiyahame ([@kamiyahame](https://x.com/kamiyahame) · [github.com/kamideathless](https://github.com/kamideathless)) · **Category:** Economy Potential · **SDK:** none — see *Stack* below
+**Builder:** kamiyahame ([@kamiyahame](https://x.com/kamiyahame) · [github.com/kamideathless](https://github.com/kamideathless)) · **Category:** Economy Potential and Token Activity · **SDK:** none — see *Stack* below
 
 **Stack:** no FriendSDK. Vanilla ES modules and a canvas on the client, a Node 22 server using the
 built-in `node:sqlite`, and **zero runtime dependencies on either side**. This is the Vibeathon's
@@ -14,7 +14,7 @@ pixels the rot ate** — which is also what unlocks each Friend's permanent perk
 ## Links
 
 - **Playable preview:** https://kamideathless.github.io/bitrot/ — landing page at `/`, game at `/play.html`
-- **Source:** [github.com/kamideathless/bitrot](https://github.com/kamideathless/bitrot/tree/572e15346e487929017a55d1462ffb1dda6df611) (pinned to the reviewed commit `572e153`)
+- **Source:** [github.com/kamideathless/bitrot](https://github.com/kamideathless/bitrot/tree/217fd0d5127d4e506c0b214914340c5b3d885b34) (pinned to the reviewed commit `217fd0d`)
 
 **Wallet and network requirements: none.** No wallet, no chain, no sign-in, no install, no ownership
 gate. Any modern browser, desktop or touch. The only network traffic is between the game and its own
@@ -30,7 +30,7 @@ Requires Node.js 22.5+ (for the built-in `node:sqlite`). No build step, no `node
 ```sh
 git clone https://github.com/kamideathless/bitrot.git
 cd bitrot
-git checkout 572e15346e487929017a55d1462ffb1dda6df611
+git checkout 217fd0d5127d4e506c0b214914340c5b3d885b34
 npm start          # landing page, game and API on http://127.0.0.1:4173/
 npm test           # 164 tests, including the full server suite
 ```
